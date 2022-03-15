@@ -8,10 +8,10 @@ spec:
       repo_clone_url: https://github.com/digitalocean/sample-vuejs.git
     name: sample-vuejs
   databases:
-  - cluster_name: db-mysql-sfo2-88724
+  - cluster_name: dev-db-name
     db_name: secondDb
     db_user: doadmin
-    engine: MYSQL
-    name: db-mysql-sfo2-88724
-    production: true
+    engine: PG
+    name: dev-db-name
+    production: false
     version: "8"
