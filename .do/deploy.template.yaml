@@ -8,10 +8,8 @@ spec:
       repo_clone_url: https://github.com/digitalocean/sample-vuejs.git
     name: sample-vuejs
   databases:
-  - cluster_name: dev-db-name
-    db_name: secondDb
-    db_user: doadmin
-    engine: PG
-    name: dev-db-name
-    production: false
-    version: "8"
+  - engine: "PG"
+    name: "dev-db-name"
+    num_nodes: 1
+    size: "db-s-dev-database"
+    version: "12"
